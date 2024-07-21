@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>💒 Wedding Invitation</title>
+    <link rel="stylesheet" href="simplyCountdown.theme.default.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="simplyCountdown.min.js"></script>
+  </head>
+
+  <body>
+    <section id="hero">
+      <h4>Kepada <span></span>,</h4>
+      <h1>Anu & Ani</h1>
+      <p>Akan melangsungkan resepsi pernikahan dalam</p>
+      <div class="simply-countdown"></div>
+      <a href="#home" onclick="enableScroll()">Lihat Undangan</a>
+    </section>
+    <nav>
+      <ul class="sidebar">
+        <li onclick="closeSidebar()">
+          <a><span class="material-symbols-outlined">close</span></a>
+        </li>
+        <li><a href="#">Andre-Hinao</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#info">Info</a></li>
+        <li><a href="#story">Story</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#rsvp">rsvp</a></li>
+        <li><a href="#gift">gift</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Andre-Hinao</a></li>
+        <li class="hideOnMobile"><a href="#home">Home</a></li>
+        <li class="hideOnMobile"><a href="#info">Info</a></li>
+        <li class="hideOnMobile"><a href="#story">Story</a></li>
+        <li class="hideOnMobile"><a href="#gallery">Gallery</a></li>
+        <li class="hideOnMobile"><a href="#rsvp">rsvp</a></li>
+        <li class="hideOnMobile"><a href="#gift">gift</a></li>
+        <li onclick="showSidebar()">
+          <a><span class="material-symbols-outlined">menu</span></a>
+        </li>
+      </ul>
+    </nav>
+    <section id="home">
+      <h1>Acara Pernikahan</h1>
+      <h4>
+        Diselenggarakan pada 28 Juni 2028 di Jakarta Internasional Stadium
+      </h4>
+      <p>
+        Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang
+        Bapak/Ibu, Saudara/i, untuk hadir pada acara pernikahan kami.
+      </p>
+      <div class="couple">
+        <div class="anu">
+          <div class="desc">
+            <h4>Anu</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus ratione consectetur molestiae pariatur, illum quas!
+            </p>
+            <p>
+              Putra dari Bapak [blank] <br />
+              dan <br />
+              Ibu[Blank]
+            </p>
+          </div>
+          <!-- <img src="Anggoro.png" alt="" /> -->
+          <img src="alt-image.jpg" alt="alt-image.jpg" />
+        </div>
+        <div class="ani">
+          <!-- <img src="Reine.png" alt="" /> -->
+          <img src="Hinao_Portrait.webp" alt="alt-image.jpg" />
+          <div class="desc">
+            <h4>Ani</h4>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus ratione consectetur molestiae pariatur, illum quas!
+            </p>
+            <p>
+              Putra dari Bapak [blank] <br />
+              dan <br />
+              Ibu[Blank]
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="info">
+      <h1>Informasi Acara</h1>
+      <p>Alamat: Papanggo, Tanjung Priok, North Jakarta City, Jakarta</p>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15868.165882119754!2d106.8600346!3d-6.1251217!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1fa3823b7263%3A0x9fc9c0986c6adaf9!2sJakarta%20International%20Stadium%20(JIS)!5e0!3m2!1sen!2sid!4v1721188121442!5m2!1sen!2sid"
+        width="550"
+        height="250"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+
+      <p>
+        Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan
+        namun tidak ada tanda-tanda sedang dilangsungkan pernikahan, boleh jadi
+        anda salah jadwal, atau salah tempat.
+      </p>
+      <div class="detail">
+        <table border="1" cellspacing="0">
+          <tr>
+            <th>AKAD NIKAH</th>
+          </tr>
+          <tr>
+            <td>
+              🕛 08.00 - 10.00 <br />
+              📅 Minggu, 31 Mei 2025
+              <br />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan
+              kekhusyuan seluruh prosesi
+            </td>
+          </tr>
+        </table>
+        <table border="1" cellspacing="0">
+          <tr>
+            <th>RESEPSI</th>
+          </tr>
+          <tr>
+            <td>
+              🕛 11.00 - Selesai <br />
+              📅 Minggu, 31 Mei 2025
+              <br />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan
+              kekhusyuan seluruh prosesi
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <section id="story" class="story">
+      <div class="heading">
+        <h4>Bagaimana Cinta Kami Bersemi</h4>
+        <h1>Cerita Kami</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
+          similique non soluta nulla asperiores voluptatem.
+        </p>
+      </div>
+
+      <ul class="timeline">
+        <li>
+          <img class="timeline-img" src="alt-image.jpg" />
+          <div class="timeline-desc">
+            <div class="timeline-heading">
+              <h3>Pertama Bertemu</h3>
+              <span>1 Juni 2000</span>
+            </div>
+            <div class="timeline-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
+                modi autem? Commodi autem quo quia?
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img class="timeline-img" src="alt-image.jpg" />
+          <div class="timeline-desc">
+            <div class="timeline-heading">
+              <h3>Mulai Serius</h3>
+              <span>1 Januari 2005</span>
+            </div>
+            <div class="timeline-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Architecto enim eaque obcaecati odit itaque explicabo quisquam
+                quos at.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img class="timeline-img" src="alt-image.jpg" />
+          <div class="timeline-desc">
+            <div class="timeline-heading">
+              <h3>Tunangan</h3>
+              <span>7 November 2009</span>
+            </div>
+            <div class="timeline-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet, deleniti distinctio. Esse quas sit explicabo corporis
+                magni qui expedita a.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section id="gallery" class="gallery">
+      <h4>Momen Kebersamaan Kami</h4>
+      <h1>Galeri Foto</h1>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+      <div class="photos"></div>
+    </section>
+    <section id="rsvp" class="rsvp">
+      <h1>Konfirmasi Kehadiran</h1>
+      <p>Isi form di bawah ini untuk mengonfirmasi kehadiran.</p>
+      <form
+        id="my-form"
+        method="POST"
+        action="https://script.google.com/macros/s/AKfycbxBymNLmaeUgbMc4WoY_30aLUVTbqAeX-584oP2aYdPdzizBGiBO4Af4aKZl0G-r8vUEQ/exec"
+      >
+        <div>
+          <label for="nama">Nama</label>
+          <input type="text" name="nama" id="nama" placeholder="nama" />
+        </div>
+        <div>
+          <label for="jumlah">Jumlah</label>
+          <input type="number" name="jumlah" min="1" max="10" value="1" />
+        </div>
+        <div>
+          <label for="konfirmasi">Konfirmasi</label>
+          <select id="konfirmasi" name="status" size="1">
+            <option value="Hadir">Hadir</option>
+            <option value="Tidak Hadir">Tidak Hadir</option>
+          </select>
+        </div>
+        <div>
+          <button id="submit">Kirim</button>
+        </div>
+      </form>
+      <div id="disqus_thread"></div>
+      <script>
+        /**
+         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function () {
+          // DON'T EDIT BELOW THIS LINE
+          var d = document,
+            s = d.createElement("script");
+          s.src = "https://my-wedding-4y9luserax.disqus.com/embed.js";
+          s.setAttribute("data-timestamp", +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+      <noscript
+        >Please enable JavaScript to view the
+        <a href="https://disqus.com/?ref_noscript"
+          >comments powered by Disqus.</a
+        ></noscript
+      >
+    </section>
+    <section id="gift" class="gift">
+      <h1>Kirim Hadiah</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi nobis
+        accusantium ad inventore earum quisquam?
+      </p>
+      <h4>Trakteer</h4>
+      <img src="trakteer-qrcode.jpeg" alt="" />
+    </section>
+    <footer>
+      <!-- <p>Design by
+      <a href="https://x.com/imandreans">
+        @imandreans
+      </a>
+    </p> -->
+    </footer>
+
+    <div id="audio-container">
+      <audio id="bgm" autoplay loop>
+        <source src="oasmara.mp4" />
+      </audio>
+      <div class="audio-icon-wrapper" style="display: flex">
+        <span class="material-symbols-outlined"> album </span>
+        <!-- <span class="material-symbols-outlined">
+  pause
+  </span> -->
+      </div>
+    </div>
+    <script>
+      const audioIconWrapper = document.querySelector(".audio-icon-wrapper");
+      const audioIcon = document.querySelector(
+        ".audio-icon-wrapper .material-symbols-outlined"
+      );
+      const song = document.querySelector("#bgm");
+      let isPlaying = false;
+      function playAudio() {
+        song.volume = 0.3;
+        audioIconWrapper.style.display = "flex";
+        song.play();
+        isPlaying = true;
+      }
+
+      audioIconWrapper.onclick = function () {
+        if (isPlaying) {
+          song.pause();
+          audioIcon.innerText = "pause_circle";
+        } else {
+          song.play();
+          audioIcon.innerText = "album";
+        }
+        isPlaying = !isPlaying;
+      };
+
+      console.log(isPlaying);
+      const urlParams = new URLSearchParams(window.location.search);
+      const name = urlParams.get("n") || "";
+      const pronoun = urlParams.get("p") || "Bapak/Ibu/Saudara/i";
+      const namaContainer = document.querySelector("#hero h4 span");
+      namaContainer.innerText = `${pronoun} ${name}`;
+
+      document.querySelector("#nama").value = name;
+      for (let x = 0; x < 6; x++) {
+        // const photo = `<img src='Photo Bersama ${x + 1}.png'>`;
+        const photo = `<img src='alt-image.jpg'>`;
+        document.querySelector(".photos").innerHTML += photo;
+      }
+
+      window.addEventListener("load", function () {
+        const form = document.getElementById("my-form");
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+          const data = new FormData(form);
+          console.log(data);
+          const action = e.target.action;
+          fetch(action, {
+            method: "POST",
+            body: data,
+          }).then(() => {
+            alert("Konfirmasi kehadiran berhasil terkirim!");
+          });
+        });
+      });
+
+      simplyCountdown(".simply-countdown", {
+        year: 2028, // required
+        month: 6, // required
+        day: 28, // required
+        hours: 0, // Default is 0 [0-23] integer
+        minutes: 0, // Default is 0 [0-59] integer
+        seconds: 0, // Default is 0 [0-59] integer
+        words: {
+          //words displayed into the countdown
+          days: { singular: "Hari", plural: "days" },
+          hours: { singular: "Jam", plural: "hours" },
+          minutes: { singular: "Menit", plural: "minutes" },
+          seconds: { singular: "Detik", plural: "seconds" },
+        },
+        plural: false, //use plurals
+        inline: false, //set to true to get an inline basic countdown like : 24 days, 4 hours, 2 minutes, 5 seconds
+        inlineClass: "simply-countdown-inline", //inline css span class in case of inline = true
+        // in case of inline set to false
+        enableUtc: false,
+        onEnd: function () {
+          // your code
+          return;
+        },
+        refresh: 1000, //default refresh every 1s
+        sectionClass: "simply-section", //section css class
+        amountClass: "simply-amount", // amount css class
+        wordClass: "simply-word", // word css class
+        zeroPad: false,
+        countUp: false, // enable count up if set to true
+      });
+
+      function showSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+      function closeSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+
+      playAudio();
+    </script>
+  </body>
+</html>
